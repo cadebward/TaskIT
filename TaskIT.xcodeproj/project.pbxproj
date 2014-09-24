@@ -13,6 +13,7 @@
 		0CF2DD0E19D24BD200230110 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF2DD0D19D24BD200230110 /* Images.xcassets */; };
 		0CF2DD1119D24BD200230110 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CF2DD0F19D24BD200230110 /* LaunchScreen.xib */; };
 		0CF2DD1D19D24BD200230110 /* TaskITTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2DD1C19D24BD200230110 /* TaskITTests.swift */; };
+		0CF2DD2719D268BD00230110 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2DD2619D268BD00230110 /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0CF2DD1619D24BD200230110 /* TaskITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskITTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF2DD1B19D24BD200230110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CF2DD1C19D24BD200230110 /* TaskITTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskITTests.swift; sourceTree = "<group>"; };
+		0CF2DD2619D268BD00230110 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				0CF2DD0619D24BD200230110 /* AppDelegate.swift */,
 				0CF2DD0819D24BD200230110 /* ViewController.swift */,
 				0CF2DD0A19D24BD200230110 /* Main.storyboard */,
+				0CF2DD2619D268BD00230110 /* TaskCell.swift */,
 				0CF2DD0D19D24BD200230110 /* Images.xcassets */,
 				0CF2DD0F19D24BD200230110 /* LaunchScreen.xib */,
 				0CF2DD0419D24BD200230110 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CF2DD0919D24BD200230110 /* ViewController.swift in Sources */,
+				0CF2DD2719D268BD00230110 /* TaskCell.swift in Sources */,
 				0CF2DD0719D24BD200230110 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
